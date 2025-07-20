@@ -1,0 +1,13 @@
+From: Shopping Newsletter <newsletter@shopping.com>
+Return-Path: <newsletter@shopping.com>
+Origin IP: 198.51.100.42
+Authentication-Results: mx.google.com; spf=pass (shopping.com: domain of shopping.com designates 198.51.100.42 as permitted sender) dkim=pass header.i=@shopping.com header.s=mail header.b=hijklmn7890 dmarc=none (p=none sp=none dis=none) header.from=shopping.com
+SPF Result: pass
+DKIM Result: pass
+DMARC Result: none
+SPF Passed: True
+DKIM Passed: True
+DMARC Passed: False
+Likely Spoofed: Yes
+Warnings:
+  - None

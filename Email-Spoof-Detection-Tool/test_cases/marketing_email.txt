@@ -1,0 +1,11 @@
+Return-Path: <newsletter@shopping.com>
+Received: from mail.shopping.com (mail.shopping.com. [198.51.100.42])
+        by mx.google.com with ESMTPS id lmn456
+        for <subscriber@gmail.com>;
+        Fri, 12 Jul 2024 12:45:30 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (shopping.com: domain of shopping.com designates 198.51.100.42 as permitted sender)
+       dkim=pass header.i=@shopping.com header.s=mail header.b=hijklmn7890
+       dmarc=none (p=none sp=none dis=none) header.from=shopping.com
+From: Shopping Newsletter <newsletter@shopping.com>
+Subject: Exclusive Deals Just For You!

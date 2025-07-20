@@ -1,0 +1,13 @@
+From: Security Alert <security-alert@example.com>
+Return-Path: <security-alert@example.com>
+Origin IP: 203.0.113.45
+Authentication-Results: mx.google.com; spf=fail (google.com: domain of example.com does not designate 203.0.113.45 as permitted sender) dkim=fail header.i=@example.com dmarc=fail (p=reject sp=reject dis=none) header.from=example.com
+SPF Result: fail
+DKIM Result: fail
+DMARC Result: fail
+SPF Passed: False
+DKIM Passed: False
+DMARC Passed: False
+Likely Spoofed: Yes
+Warnings:
+  - None

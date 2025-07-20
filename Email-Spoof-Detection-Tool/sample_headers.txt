@@ -1,0 +1,8 @@
+Return-Path: <spoofed@example.com>
+Received: from unknown.domain.com ([203.0.113.10])
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of spoofed@example.com does not designate 203.0.113.10 as permitted sender)
+       dkim=fail header.i=@example.com
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=example.com
+From: Legit Brand <spoofed@example.com>
+Subject: Urgent: Account Suspended

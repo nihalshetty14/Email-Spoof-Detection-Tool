@@ -1,0 +1,11 @@
+Return-Path: <security-alert@example.com>
+Received: from unknown (HELO badhost.example.net) ([203.0.113.45])
+        by mx.google.com with SMTP id xyz789
+        for <user@gmail.com>;
+        Thu, 11 Jul 2024 08:30:00 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of example.com does not designate 203.0.113.45 as permitted sender)
+       dkim=fail header.i=@example.com
+       dmarc=fail (p=reject sp=reject dis=none) header.from=example.com
+From: Security Alert <security-alert@example.com>
+Subject: Urgent: Account Suspended - Verify Now!

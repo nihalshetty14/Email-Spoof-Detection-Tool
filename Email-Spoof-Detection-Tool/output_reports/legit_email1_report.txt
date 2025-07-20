@@ -1,0 +1,13 @@
+From: GitHub <notifications@github.com>
+Return-Path: <notifications@github.com>
+Origin IP: 192.30.253.113
+Authentication-Results: mx.google.com; spf=pass (google.com: domain of github.com designates 192.30.253.113 as permitted sender) dkim=pass header.i=@github.com header.s=default header.b=abcdefg12345 dmarc=pass (p=reject sp=reject dis=none) header.from=github.com
+SPF Result: pass
+DKIM Result: pass
+DMARC Result: pass
+SPF Passed: True
+DKIM Passed: True
+DMARC Passed: True
+Likely Spoofed: No
+Warnings:
+  - None

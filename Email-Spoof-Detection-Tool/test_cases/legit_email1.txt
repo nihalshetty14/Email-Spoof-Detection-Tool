@@ -1,0 +1,11 @@
+Return-Path: <notifications@github.com>
+Received: from mail.github.com (mail.github.com. [192.30.253.113])
+        by mx.google.com with ESMTPS id abc123
+        for <your.email@gmail.com>;
+        Wed, 10 Jul 2024 15:20:18 -0700 (PDT)
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of github.com designates 192.30.253.113 as permitted sender)
+       dkim=pass header.i=@github.com header.s=default header.b=abcdefg12345
+       dmarc=pass (p=reject sp=reject dis=none) header.from=github.com
+From: GitHub <notifications@github.com>
+Subject: [GitHub] New comment on issue #123
